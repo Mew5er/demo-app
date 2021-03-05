@@ -1,5 +1,14 @@
 {
-    "author":"Nishant kumar Gupta",
+    "engines": {
+        "node": "14"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Nishant kumar Gupta",
     "version": "1.0.0",
-    "description": "This is my first API ever"
+    "description": "This is my first API ever",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }

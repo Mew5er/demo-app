@@ -1,6 +1,7 @@
 const app= require("express")();
 const PORT= process.env.PORT || 3000;
-app.get("",(req,res) => {
+console.log(PORT);
+app.get("/",(req,res) => {
     res.send("Hello World! This API is awesome");
 });
 
